@@ -1,7 +1,11 @@
-# Cabify test for QA position
+# Test for QA position
 
 ## Considerations
-This is my first time using Golang. My understanding of the language and its building tools is very limited so when you try running the code on your machine you might encounter some issues. 
+This is my first time using Golang. 
+
+My understanding of the language and its building tools is very limited so when you try running the code on your machine you might encounter some issues. 
+
+I chose Golang because I've been wanting to try it for a long time and its popularity is on the rise.
 
 Feedback is welcomed if you encounter any problems.
 
@@ -13,7 +17,7 @@ The vendor directory is gitignored, to ensure that the dependencies exist in the
 machine please run dep before proceeding with any of the below.
 
 ```console
-$ dep ensure
+dep ensure
 ```
 
 ## API Tests
