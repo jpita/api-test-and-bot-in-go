@@ -21,7 +21,7 @@ dep ensure
 
 ## API Tests
 
-In order to run the tests you need to execute the following command inside the `goTest` folder 
+In order to run the tests you need to execute the following command inside the root folder 
 
 `go test -v -race`
 
@@ -52,19 +52,17 @@ This test tries to book the first free taxi in the array from `/taxis/`.
 
 I built a telegram bot that allows us to get the free taxis and book a taxi.
 
-The booking part, similarly to the API test, is not working due to issues with the API.
-
-In order to put the bot running, you need to run the following commands from the `goTest` folder:
+In order to put the bot running, you need to run the following commands from the root folder:
 
 `go build .`
 
 and 
 
-`./goTest` 
+`./api-test-and-bot-in-go` 
 
 Then you need to open telegram on your phone or browser and search for the bot named `bookTaxiPita_bot`.
 
-You can use the `/help` message to get the available commands.
+You can use the `/help` command to get the available commands.
 
 Right now the implemented commands are:
 
@@ -75,4 +73,3 @@ Right now the implemented commands are:
 * book a taxi by name or city or location
 * get available taxis by location or city 
 * error handling: most of the cases I'm just assuming the type of variable returned or that everything goes well, I should protect the code for when something goes wrong
-* if the API returns only one taxi on the `/taxis` and `taxis/[CITY]` endpoints, we can have issues, I'm still trying to found a solution
