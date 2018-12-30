@@ -70,8 +70,7 @@ Right now the implemented commands are:
 * `/bookAvailableTaxi` - tries to book the first available taxi (with State = Free)
 
 
-![telegram bot]
-(https://i.imgur.com/kvejwU0.jpg)
+![telegram bot](https://i.imgur.com/kvejwU0.jpg)
 
 ### Improvements that can be made
 * book a taxi by name or city or location
