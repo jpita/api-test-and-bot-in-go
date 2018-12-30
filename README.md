@@ -69,6 +69,8 @@ Right now the implemented commands are:
 * `/getAllTaxis` - prints all the taxis returned by the API with their data (State, Name, Location, City)
 * `/bookAvailableTaxi` - tries to book the first available taxi (with State = Free)
 
+(https://i.imgur.com/kvejwU0.jpg)
+
 ### Improvements that can be made
 * book a taxi by name or city or location
 * get available taxis by location or city 
