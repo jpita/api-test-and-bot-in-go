@@ -9,11 +9,7 @@ I chose Golang because I've been wanting to try it for a long time and its popul
 
 Feedback is welcomed if you encounter any problems.
 
-
-## Requirements
-
-
-
+## Considerations
 * [dep](https://github.com/golang/dep)
 
 The vendor directory is gitignored, to ensure that the dependencies exist in the local
